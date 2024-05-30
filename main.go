@@ -10,15 +10,6 @@ import (
 	"strconv"
 )
 
-//todo:
-// DONE 1. read input file
-// DONE 2. find math expressions in file and cancel all others expressions
-// DONE 3. calculate it
-// DONE 4. create and write expressions with results in it
-// 5. Программа должна принимать на вход 2 аргумента: имя входного файла и имя файла для вывода результатов.
-// 6. Если не найден вывод, создать.
-// 7. Если файл вывода существует, очистить перед записью новых результатов.
-
 func main() {
 	arg1 := "input.txt"  // Дефолтное имя входного файла
 	arg2 := "output.txt" // Дефолтное имя для вывода результатов
